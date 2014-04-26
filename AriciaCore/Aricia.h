@@ -10,6 +10,8 @@
 #define ARICIA_API __declspec(dllimport)
 #endif
 
+ARICIA_API bool exists(const wchar_t * baseImagePath, const wchar_t * targetImagePath, int seconds);
+
 // This class is exported from the Aricia.dll
 class ARICIA_API CAricia {
 public:

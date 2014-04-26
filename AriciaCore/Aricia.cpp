@@ -5,6 +5,11 @@
 #include "Aricia.h"
 
 
+ARICIA_API bool exists(const wchar_t * baseImagePath, const wchar_t * targetImagePath, int seconds)
+{
+	return 1;
+}
+
 // This is an example of an exported variable
 ARICIA_API int nAricia=0;
 
