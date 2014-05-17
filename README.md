@@ -1,6 +1,12 @@
 Aricia
 ======
 
+PURPOSE
+===================
+There are a few reasons to do this project but there are two main reasons:
+1. Learn the basics of OpenCV
+2. Provide a Sikuli like API that can be used from C#.  This could be used to drive BDD testing.
+
 Build Requirements
 ===================
 
