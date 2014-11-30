@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2013 for Windows Desktop
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AriciaCore", "AriciaCore\Aricia.vcxproj", "{E909753D-120A-41E5-8A1C-95BB713AB691}"
 EndProject
@@ -10,11 +10,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AriciaManaged", "AriciaMana
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestManaged", "UnitTestManaged\UnitTestManaged.csproj", "{1658B8C6-A973-4A4D-A433-FB637E773082}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{8364F0E6-26E6-4A4B-B25C-E0C8BDE73659}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6C25AC4E-10F9-497C-968A-F3CE3C5A279F}"
 	ProjectSection(SolutionItems) = preProject
-		.nuget\NuGet.Config = .nuget\NuGet.Config
-		.nuget\NuGet.exe = .nuget\NuGet.exe
-		.nuget\NuGet.targets = .nuget\NuGet.targets
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global
@@ -36,6 +34,7 @@ Global
 		{F86CD405-5F67-458E-8575-CABE0562D0CC}.Release|x64.ActiveCfg = Release|x64
 		{F86CD405-5F67-458E-8575-CABE0562D0CC}.Release|x64.Build.0 = Release|x64
 		{1658B8C6-A973-4A4D-A433-FB637E773082}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1658B8C6-A973-4A4D-A433-FB637E773082}.Debug|x64.Build.0 = Debug|Any CPU
 		{1658B8C6-A973-4A4D-A433-FB637E773082}.Release|x64.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
