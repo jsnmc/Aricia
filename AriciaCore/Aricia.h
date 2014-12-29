@@ -12,7 +12,39 @@
 
 #include <string>
 
+// This class is exported from the Aricia.dll
+class ARICIA_API CMatch {
+public:
+	CMatch(void);
+	// TODO: add your methods here.
+};
+
+struct Location {
+	double x;
+	double y;
+};
+
+struct Image {
+	std::string imagePath;
+};
+
+struct Match {
+	Location* location;
+	Image* image;
+};
+
+struct Region{
+	int x;
+	int y;
+	int height;
+	int width;
+};
+
+//REGION
 ARICIA_API bool exists(const std::string baseImagePath, const std::string targetImagePath, int seconds);
+ARICIA_API Match* find(const std::string baseImagePath, const std::string targetImagePath);
+ARICIA_API Match* wait(const std::string baseImagePath, const std::string targetImagePath, int milliSecondsToWait);
+
 
 // This class is exported from the Aricia.dll
 class ARICIA_API CAricia {
